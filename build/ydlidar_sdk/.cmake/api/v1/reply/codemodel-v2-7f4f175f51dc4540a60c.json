@@ -1,0 +1,412 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ce3ba82c20b450fd45db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						17,
+						18
+					]
+				},
+				{
+					"build" : "core",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-core-eac7e466be7743a8be0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core"
+				},
+				{
+					"build" : "core/base",
+					"jsonFile" : "directory-core.base-9e00b42a7f85ae6eaaba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/base"
+				},
+				{
+					"build" : "core/common",
+					"jsonFile" : "directory-core.common-069a94e9f675ec65e82c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/common"
+				},
+				{
+					"build" : "core/json",
+					"jsonFile" : "directory-core.json-8122f2346ba49e0bf43a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/json"
+				},
+				{
+					"build" : "core/math",
+					"jsonFile" : "directory-core.math-ba114cfd9017e68a8789.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/math"
+				},
+				{
+					"build" : "core/network",
+					"jsonFile" : "directory-core.network-28801acd3193b6de92d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/network"
+				},
+				{
+					"build" : "core/serial",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-core.serial-410e4ac18c138ba62023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/serial"
+				},
+				{
+					"build" : "core/serial/impl",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-core.serial.impl-70524e63f79595955523.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "core/serial/impl"
+				},
+				{
+					"build" : "core/serial/impl/unix",
+					"jsonFile" : "directory-core.serial.impl.unix-e39c2d734015aaabaec5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "core/serial/impl/unix"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						11
+					],
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/filters",
+					"jsonFile" : "directory-src.filters-eb2e78a972387c654be0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "src/filters"
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-34f21d78664d24bc6a3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "ydlidar_sdk",
+					"targetIndexes" : 
+					[
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "ydlidar_test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "et_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-et_test-0861965463dadb6a53b2.json",
+					"name" : "et_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "gs_ota::@714eac15f71a94114fdf",
+					"jsonFile" : "target-gs_ota-b4c13bfafe40ae181927.json",
+					"name" : "gs_ota",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "gs_restart::@714eac15f71a94114fdf",
+					"jsonFile" : "target-gs_restart-fd8a01f539c14d4b0c72.json",
+					"name" : "gs_restart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "gs_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-gs_test-296218f3e4c9a4fd2fcd.json",
+					"name" : "gs_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "gs_test2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-gs_test2-1e66112025c6adedc5d4.json",
+					"name" : "gs_test2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "lidar_c_api_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-lidar_c_api_test-df3280b417e25590676f.json",
+					"name" : "lidar_c_api_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "scl_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-scl_test-fb30442518e4f45643f2.json",
+					"name" : "scl_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sdm18_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sdm18_test-1ca55f2e462369c515e9.json",
+					"name" : "sdm18_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sdm_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sdm_test-60ab79e8df9494a66eb1.json",
+					"name" : "sdm_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tea_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tea_test-d4a3112b8e89472cea68.json",
+					"name" : "tea_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tia_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tia_test-6a0441030d5114a41db5.json",
+					"name" : "tia_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tmini-sh_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tmini-sh_test-4e87bef34a2b5e9cea6b.json",
+					"name" : "tmini-sh_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tmini_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tmini_test-d1ce48ebd7e888bb3b57.json",
+					"name" : "tmini_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tof_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tof_test-2396933cbf49475dba71.json",
+					"name" : "tof_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tri_and_gs_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tri_and_gs_test-5a8b2b29018f51a17995.json",
+					"name" : "tri_and_gs_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tri_restart::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tri_restart-68a506eb1009b844a82f.json",
+					"name" : "tri_restart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tri_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tri_test-768792f60eda5ec371de.json",
+					"name" : "tri_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7b1e2f980ebc298bb110.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_sdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_sdk-6085cf027efef7324c99.json",
+					"name" : "ydlidar_sdk",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ashutosh/Desktop/lidar_ws/build/ydlidar_sdk",
+		"source" : "/home/ashutosh/Desktop/lidar_ws/src/ydLidar_sdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
