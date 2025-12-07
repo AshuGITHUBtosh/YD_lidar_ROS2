@@ -1,4 +1,9 @@
 cd lidar_ws
+
+ros2 launch ydlidar_ros2_driver slam_with_lidar.launch.py
+
+NEW TERMINAL
+
 ros2 launch ydlidar_ros2_driver slam_with_lidar.launch.py
 
 NEW terminal
@@ -7,6 +12,7 @@ ros2 run slam_toolbox sync_slam_toolbox_node   --ros-args   -p scan_topic:=/scan
 
 
 NEW TERMINAL
+
 rviz2
 choose fixed frame=map
 by topic add =map
