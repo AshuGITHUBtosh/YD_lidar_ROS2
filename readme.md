@@ -1,6 +1,6 @@
 cd lidar_ws
 
-ros2 launch ydlidar_ros2_driver slam_with_lidar.launch.py
+ros2 launch ydlidar_ros2_driver ydlidar_launch.py
 
 NEW TERMINAL
 
